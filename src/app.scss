@@ -1,0 +1,14 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .Patchy {
+    width: 200px;
+    height: 200px;
+    padding: 30px;
+  }
+  .welcome-msg {
+    font-size: 2rem;
+  }
+}

@@ -1,0 +1,58 @@
+//body of component
+.login-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  min-width: 400px;
+
+  .login-title {
+    font-size: 1rem;
+    padding: 10px;
+    margin: 20px;
+  }
+
+  //form container
+  .formik-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    // can most likely remove. global styling can set min-width
+    min-width: 200px;
+    width: 400px;
+    height: 200px;
+    background-color: #F3F4F4;
+    padding: 10px;
+
+    .formik-fields {
+      margin-top: 10px;
+    }
+    .form-btn {
+      border-radius: 11px;
+      background-color: #04CCBB;
+      color: #F3F4F4;
+      padding: 10px 30px;
+      margin: 10px;
+      cursor: pointer;
+    }
+    .form-btn:hover {
+      background-color: #F3F4F4;
+      color: #04CCBB;
+
+    }
+  }
+
+  //signup content. p and button.
+
+  .signup-link {
+    border-radius: 11px;
+    background-color: #F3F4F4;
+    color: #04CCBB;
+    padding: 10px 30px;
+    margin: 10px;
+    cursor: pointer;
+
+  }
+}
