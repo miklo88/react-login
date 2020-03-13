@@ -1,19 +1,19 @@
 import React from "react";
-import { Route, Switch } from 'react-router-dom';
+import { Route, Switch } from "react-router-dom";
 // import routes below
 
-import Register from '../login/Registration';
-import Login from '../login/Login';
+import Register from "../login/Signup";
+import Login from "../login/Login";
 
 const Routes = () => {
-    return (
-        <>
-        <Switch>
-            <Route path='/register' exact component={Register} />
-            <Route path='/login' component={Login} />
-        </Switch>
-        </>
-    )
-}
- 
+  return (
+    <>
+      <Switch>
+        <Route path='/register' exact component={Register} />
+        <Route path='/login' component={Login} />
+      </Switch>
+    </>
+  );
+};
+
 export default Routes;
