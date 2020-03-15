@@ -1,5 +1,5 @@
 // //body of component
-.login-container {
+.singup-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -17,10 +17,10 @@
     width: 100%;
     padding: 10px;
     margin-top: 50px;
-    .signup-p {
+    .login-p {
       color: #04ccbb;
     }
-    .signup-link {
+    .login-link {
       border-radius: 11px;
       background-color: #f3f4f4;
       color: #04ccbb;
@@ -29,7 +29,7 @@
       margin: 10px;
       cursor: pointer;
     }
-    .signup-link:hover {
+    .login-link:hover {
       background-color: #fbb4b4;
       color: #f3f4f4;
     }
@@ -46,7 +46,7 @@
     background-color: #f3f4f4;
     padding: 10px;
   }
-  .login-p {
+  .signup-p {
     color: #04ccbb;
     opacity: 0.5;
   }

@@ -1,17 +1,30 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React from "react";
+import { Link } from "react-router-dom";
+import "./Nav.scss";
 
 function Nav() {
-    return (
-        <div className="Nav-Container">
-            <h1 className='Nav-Logo'>CarPal</h1>
-            <ul className='Nav-Menu'>
-                <li><Link to='register'>Register</Link></li>
-                <li><Link to='login'> Login</Link></li>
-
-            </ul>
-        </div>
-    )
+  return (
+    <nav className='nav-container'>
+      <h1 className='nav-logo'>CarPal</h1>
+      <ul className='nav-menu'>
+        <li>
+          <Link className='nav-link' to='/'>
+            Home
+          </Link>
+        </li>
+        <li>
+          <Link className='nav-link' to='/signup'>
+            Signup
+          </Link>
+        </li>
+        <li>
+          <Link className='nav-link' to='/login'>
+            Login
+          </Link>
+        </li>
+      </ul>
+    </nav>
+  );
 }
 
 export default Nav;

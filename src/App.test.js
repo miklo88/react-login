@@ -1,9 +1,21 @@
-import React from 'react';
-import { render } from '@testing-library/react';
-import App from './App';
+// import React from "react";
+// import App from "./App";
+// import { BrowserRouter as Router } from "react-router-dom";
+// import * as rtl from "@testing-library/react";
+// import "@testing-library/jest-dom/extend-expect";
 
-test('renders learn react link', () => {
-  const { getByText } = render(<App />);
-  const linkElement = getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
-});
+// afterEach(rtl.cleanup);
+
+// describe("renders without crashing", () => {
+//   test("displays CarPal", () => {
+//     const wrapper = rtl.render(
+//       <Router>
+//         <App />
+//       </Router>
+//     );
+
+//     const title = wrapper.queryByText(/carpal/i);
+//     expect(title).toBeInTheDocument();
+//     expect(title).toBeVisible();
+//   });
+// });
